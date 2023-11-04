@@ -101,5 +101,11 @@ Servisin çalıştığını gördükten sonra tekrar Ctrl + C ile servis infosun
 ```
 journalctl -f -u availd
 ```
+İşlemler bu kadar. Screenden çıkabiliriz.
 
+https://telemetry.avail.tools/ sitesinde node ismimizi ve bilgilerimizi görebiliriz. 
+Ancak Telemetry'nin aynı anda sadece 1000 kişi gösterme kapasitesi olduğunu unutmayın. İsminizi göremeseniz bile loglar akıyorsa node çalışıyordur.
+
+
+ 
 
