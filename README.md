@@ -46,9 +46,6 @@ Screen oluşturalım ve Avail klasörüne girelim.
 screen -S avail
 ```
 ```
-git clone https://github.com/availproject/avail.git
-```
-```
 cd avail
 ```
 Output klasörü oluşturalım.
