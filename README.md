@@ -87,10 +87,7 @@ RestartSec=120
 [Install]
 WantedBy=multi-user.target
 ```
-Servis dosyasını aktifleştirelim.
 
-```
-sudo systemctl enable availd.service
 ```
 Servis dosyasını aktifleştirelim ve başlatalım.
 
@@ -100,3 +97,10 @@ sudo systemctl enable availd.service
 ```
 sudo systemctl start availd.service
 ```
+Servisin çalıştığını gördükten sonra tekrar Ctrl + C ile servis infosunu kapatalım. Ardından node loglarını açalım.
+
+```
+journalctl -f -u availd
+```
+
+
