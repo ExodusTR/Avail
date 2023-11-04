@@ -2,7 +2,7 @@
 
 <img width="391" alt="logo_large 80d5666f" src="https://github.com/ExodusTR/Avail/assets/98022535/57cafddf-f548-4a4b-a4aa-15e6da536237">
 
-# Minimum Gereksinimler
+# Minimum Sistem Gereksinimleri
 
 * 2 CPU
 * 4GB RAM
