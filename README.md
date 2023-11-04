@@ -98,6 +98,9 @@ sudo systemctl enable availd.service
 ```
 sudo systemctl start availd.service
 ```
+```
+sudo systemctl status availd.service
+```
 Servisin çalıştığını gördükten sonra tekrar Ctrl + C ile servis infosunu kapatalım. Ardından node loglarını açalım.
 
 ```
