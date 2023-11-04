@@ -33,3 +33,17 @@ rustup update nightly
 ```
 rustup target add wasm32-unknown-unknown --toolchain nightly
 ```
+Avail reposunu klonlayalım.
+
+```
+git clone https://github.com/availproject/avail.git
+```
+Screen oluşturalım ve Avail klasörüne girelim.
+
+```
+git clone https://github.com/availproject/avail.git
+```
+```
+cd avail
+```
+
