@@ -88,7 +88,6 @@ RestartSec=120
 WantedBy=multi-user.target
 ```
 
-```
 Servis dosyasını aktifleştirelim ve başlatalım.
 
 ```
