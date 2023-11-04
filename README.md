@@ -1,5 +1,7 @@
 # Avail Rehber
 
+https://github.com/ExodusTR/Avail/issues/1#issue-1977398587
+
 # Gereksinimler
 
 * 2 CPU
