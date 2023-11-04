@@ -74,7 +74,7 @@ sudo touch /etc/systemd/system/availd.service
 sudo nano /etc/systemd/system/availd.service
 ```
 
-Aşağıdaki kodları yapıştırdıktan sonra kendimize bir node ismi belirleyip "Nodeismi" yazan yere tırnaklar kalacak şekilde yazalım.
+Aşağıdaki kodları yapıştırdıktan sonra kendimize bir node ismi belirleyip "Nodeismi" yazan yere tırnaklar kalacak şekilde yazalım. Sonra CTRL + X'e ve ardından Y'ye basarak kaydedip çıkalım.
 
 ```
 [Unit]
