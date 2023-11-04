@@ -1,6 +1,6 @@
 # Avail Rehber
 
-[https://github.com/ExodusTR/Avail/issues/1#issue-1977398587](https://user-images.githubusercontent.com/98022535/280476855-ada11ced-5763-4415-b26b-5a5dccf1e5c3.png)
+<img width="391" alt="logo_large 80d5666f" src="https://github.com/ExodusTR/Avail/assets/98022535/57cafddf-f548-4a4b-a4aa-15e6da536237">
 
 # Gereksinimler
 
