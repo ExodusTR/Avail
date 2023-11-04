@@ -1,4 +1,4 @@
-# Avail
+# Avail Rehber
 
 # Gereksinimler
 
@@ -8,3 +8,9 @@
 * Ubuntu 20.04 ya da üstü
 
 # Kurulum
+
+Sistemi güncelleyelim.
+
+```
+sudo apt update && sudo apt upgrade -y
+```
