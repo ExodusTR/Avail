@@ -46,4 +46,44 @@ git clone https://github.com/availproject/avail.git
 ```
 cd avail
 ```
+Output klasörü oluşturalım.
 
+```
+mkdir -p output
+```
+1.7.2 sürümünün branchını hedefleyelim.
+
+```
+git checkout v1.7.2
+```
+
+Kurulumu yapalım.
+
+```
+cargo run --locked --release -- --chain kate -d ./output
+```
+
+Loglar akmaya başladığında Ctrl + C ile durduralım. Şimdi servis dosyası oluşturacağız.
+
+```
+sudo touch /etc/systemd/system/availd.service
+```
+```
+sudo nano /etc/systemd/system/availd.service
+```
+
+Aşağıdaki kodları yapıştırdıktan sonra kendimize bir node ismi belirleyip "Nodeismi" yazan yere tırnaklar kalacak şekilde yazalım.
+
+```
+[Unit]
+Description=Avail Validator
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+User=root
+ExecStart= /root/avail/target/release/data-avail --base-path `pwd`/data --chain kate --name "nodeismi"
+Restart=always
+RestartSec=120
+[Install]
+WantedBy=multi-user.target
+```
